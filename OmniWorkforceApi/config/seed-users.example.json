@@ -1,0 +1,7 @@
+[
+  { "email": "admin@omniworkforce.ph",       "role": "Admin Office",     "password": "test" },
+  { "email": "hr@omniworkforce.ph",          "role": "Recruiters & HR",  "password": "test" },
+  { "email": "recruitment@omniworkforce.ph", "role": "Recruitment",      "password": "test" },
+  { "email": "payroll@omniworkforce.ph",     "role": "Payroll Officers", "password": "test" },
+  { "email": "employee@omniworkforce.ph",    "role": "Agent/Employee",   "password": "test" }
+]

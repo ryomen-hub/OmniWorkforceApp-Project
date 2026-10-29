@@ -1,0 +1,16 @@
+.main-board-layout { display: grid; grid-template-columns: 2fr 1fr; gap: 24px; }
+@media(max-width: 1000px) { .main-board-layout { grid-template-columns: 1fr; } }
+.post-card { background: #ffffff; border: 1px solid var(--border); border-radius: 14px; padding: 20px; margin-bottom: 16px; box-shadow: var(--shadow-sm); }
+.post-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px; }
+.post-author-info { display: flex; align-items: center; gap: 10px; }
+.post-avatar { width: 38px; height: 38px; background: var(--primary-light); color: var(--primary); font-weight: 700; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.85rem; flex-shrink: 0; }
+.post-author-name { font-size: 0.9rem; font-weight: 700; color: var(--text-main); }
+.post-role-tag { font-size: 0.7rem; color: var(--primary); background: var(--primary-light); padding: 2px 8px; border-radius: 6px; font-weight: 600; display: inline-block; margin-top: 2px; }
+.post-time { font-size: 0.75rem; color: var(--text-muted); }
+.post-body { font-size: 0.9rem; color: var(--text-main); line-height: 1.5; margin-top: 8px; margin-bottom: 12px; white-space: pre-wrap; }
+.post-image-container { margin-top: 12px; border-radius: 10px; overflow: hidden; border: 1px solid var(--border); max-height: 320px; background: #f1f5f9; }
+.post-image-container img { width: 100%; height: auto; max-height: 320px; object-fit: cover; display: block; }
+.post-reactions { display: flex; gap: 8px; margin-top: 14px; padding-top: 10px; border-top: 1px solid var(--border); }
+.reaction-btn { background: #f8fafc; border: 1px solid var(--border); color: var(--text-muted); padding: 5px 12px; border-radius: 20px; font-size: 0.8rem; font-weight: 600; cursor: pointer; display: flex; align-items: center; gap: 6px; transition: all 0.2s; }
+.reaction-btn:hover { background: var(--primary-light); color: var(--primary); border-color: var(--primary-border); }
+.reaction-btn.reacted { background: var(--primary-light); color: var(--primary); border-color: var(--primary-border); }

@@ -1,0 +1,9 @@
+node_modules/
+.env
+data/*.db
+data/*.db-journal
+data/*.db-wal
+data/*.db-shm
+
+# real team accounts (emails + passwords) — never commit or share
+config/seed-users.local.json

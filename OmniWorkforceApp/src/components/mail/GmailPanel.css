@@ -1,0 +1,21 @@
+.gmail-container { display: grid; grid-template-columns: 240px 1fr; background: var(--surface); border: 1px solid var(--border); border-radius: 16px; overflow: hidden; box-shadow: var(--shadow-sm); min-height: 600px; }
+@media(max-width: 768px) { .gmail-container { grid-template-columns: 1fr; } }
+.gmail-sidebar { background: #f8fafc; border-right: 1px solid var(--border); padding: 20px 14px; display: flex; flex-direction: column; gap: 16px; }
+.compose-btn-wrapper { padding: 4px; }
+.gmail-compose-btn { background: linear-gradient(135deg, var(--primary) 0%, var(--primary-hover) 100%); color: white; border: none; padding: 12px 20px; border-radius: 24px; font-weight: 700; font-size: 0.88rem; cursor: pointer; box-shadow: 0 4px 12px rgba(37, 99, 235, 0.25); display: flex; align-items: center; justify-content: center; gap: 8px; width: 100%; }
+.gmail-nav-list { display: flex; flex-direction: column; gap: 4px; }
+.gmail-nav-item { padding: 10px 16px; border-radius: 20px; font-size: 0.85rem; font-weight: 600; color: var(--text-muted); cursor: pointer; display: flex; align-items: center; justify-content: space-between; transition: all 0.15s; }
+.gmail-nav-item:hover { background: #e2e8f0; color: var(--text-main); }
+.gmail-nav-item.active { background: #dbeafe; color: var(--primary); font-weight: 700; }
+.gmail-main-pane { display: flex; flex-direction: column; background: #ffffff; }
+.gmail-toolbar { padding: 14px 20px; border-bottom: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between; background: #f8fafc; }
+.gmail-email-list { overflow-y: auto; flex: 1; }
+.gmail-email-row { padding: 14px 20px; border-bottom: 1px solid var(--border); display: flex; align-items: center; gap: 16px; cursor: pointer; transition: background 0.15s; }
+.gmail-email-row:hover { background: #f8fafc; box-shadow: inset 2px 0 0 var(--primary); }
+.gmail-email-row.unread { font-weight: 700; background: #fdfefe; }
+.gmail-sender { width: 180px; font-size: 0.85rem; color: var(--text-main); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.gmail-subject-snippet { flex: 1; font-size: 0.85rem; color: var(--text-muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.gmail-subject-snippet strong { color: var(--text-main); }
+.gmail-date { font-size: 0.75rem; color: var(--text-muted); white-space: nowrap; }
+.mailbox-label { margin-top: auto; font-size: 0.75rem; color: var(--text-muted); padding-top: 12px; border-top: 1px solid var(--border); }
+.empty-mail { padding: 40px; text-align: center; color: var(--text-muted); }

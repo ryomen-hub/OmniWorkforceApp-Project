@@ -1,0 +1,11 @@
+.goal-container { display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 10px 0; }
+.goal-circle { width: 140px; height: 140px; border-radius: 50%; display: flex; align-items: center; justify-content: center; position: relative; margin-bottom: 16px; background: conic-gradient(var(--primary) 0deg 144deg, var(--border) 144deg 360deg); }
+.goal-circle-inner { width: 112px; height: 112px; border-radius: 50%; background: var(--surface); display: flex; flex-direction: column; align-items: center; justify-content: center; }
+.goal-number { font-size: 2rem; font-weight: 800; color: var(--text-main); line-height: 1; }
+.goal-sub { font-size: 0.75rem; color: var(--text-muted); }
+.goal-label { font-size: 0.85rem; color: var(--primary); font-weight: 700; }
+.form-link-item { background: #f8fafc; border: 1px solid var(--border); border-radius: 12px; padding: 16px; margin-bottom: 14px; display: flex; align-items: center; justify-content: space-between; }
+.form-link-info h4 { font-size: 0.92rem; font-weight: 700; color: var(--text-main); }
+.form-link-info p { font-size: 0.75rem; color: var(--success); margin: 0; font-weight: 600; }
+.copy-btn { background: var(--primary); color: #fff; border: none; padding: 6px 14px; border-radius: 8px; font-size: 0.8rem; font-weight: 700; cursor: pointer; transition: all 0.2s; }
+.copy-btn:hover { background: var(--primary-hover); }

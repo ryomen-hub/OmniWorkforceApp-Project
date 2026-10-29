@@ -1,0 +1,4 @@
+.sidebar { width: 240px; background: var(--surface); border-right: 1px solid var(--border); padding: 24px 14px; display: flex; flex-direction: column; gap: 6px; }
+.nav-item { display: flex; align-items: center; gap: 12px; padding: 11px 14px; border-radius: 10px; font-size: 0.88rem; font-weight: 600; color: var(--text-muted); text-decoration: none; cursor: pointer; transition: all 0.15s ease; }
+.nav-item:hover { background: #f1f5f9; color: var(--text-main); }
+.nav-item.active { background: var(--primary-light); color: var(--primary); border: 1px solid var(--primary-border); }

@@ -1,0 +1,17 @@
+#loginView { min-height: 100vh; display: flex; align-items: center; justify-content: center; background-color: #f0f4f8; background-image: radial-gradient(circle at 10% 20%, rgba(37, 99, 235, 0.08) 0%, transparent 40%), radial-gradient(circle at 90% 80%, rgba(2, 132, 199, 0.06) 0%, transparent 40%); padding: 20px; }
+.login-card { background: var(--surface); border: 1px solid var(--border); border-radius: 20px; width: 100%; max-width: 440px; padding: 40px; box-shadow: var(--shadow-lg); }
+.login-header { margin-bottom: 28px; display: flex; align-items: center; gap: 14px; }
+.logo-circle { width: 48px; height: 48px; background: linear-gradient(135deg, var(--primary) 0%, #1e40af 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #fff; box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3); flex-shrink: 0; }
+.login-title { font-size: 1.6rem; font-weight: 800; color: var(--text-main); letter-spacing: -0.5px; line-height: 1.1; }
+.login-subtitle { font-size: 0.75rem; color: var(--primary); font-weight: 700; margin-top: 3px; text-transform: uppercase; letter-spacing: 1.2px; }
+.login-captcha-group { display: grid; justify-items: start; }
+.login-captcha-widget { min-height: 65px; max-width: 100%; }
+.login-captcha-message, .login-captcha-error, .login-captcha-success { font-size: 0.78rem; line-height: 1.4; }
+.login-captcha-message { color: var(--text-muted); }
+.login-captcha-error { color: #b91c1c; }
+.login-captcha-success { color: #047857; }
+.login-card .btn-primary:disabled { cursor: not-allowed; opacity: 0.55; transform: none; }
+.recovery-description { margin: 0 0 20px; color: var(--text-muted); font-size: 0.85rem; line-height: 1.5; }
+.recovery-back-btn { display: block; margin: 14px auto 0; border: 0; background: transparent; color: var(--primary); font: inherit; font-size: 0.84rem; font-weight: 650; cursor: pointer; }
+.recovery-back-btn:hover { text-decoration: underline; }
+.recovery-success { margin: 12px 0; padding: 11px 12px; border: 1px solid #a7f3d0; border-radius: 9px; background: #ecfdf5; color: #047857; font-size: 0.84rem; line-height: 1.5; }

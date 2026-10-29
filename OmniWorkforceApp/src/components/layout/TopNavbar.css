@@ -1,0 +1,21 @@
+.top-navbar { background: var(--surface); border-bottom: 1px solid var(--border); padding: 14px 28px; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 40; }
+.brand-cluster { display: flex; align-items: center; gap: 12px; }
+.brand-logo-circle { background: linear-gradient(135deg, var(--primary) 0%, #1e40af 100%); color: #fff; width: 36px; height: 36px; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 8px rgba(37, 99, 235, 0.3); }
+.brand-text h1 { font-size: 1.05rem; font-weight: 800; color: var(--text-main); letter-spacing: 0.5px; }
+.header-actions { display: flex; align-items: center; gap: 14px; position: relative; }
+.portal-pill { background: var(--primary-light); border: 1px solid var(--primary-border); color: var(--primary); padding: 5px 12px; border-radius: 20px; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; }
+.notif-btn { background: #f8fafc; border: 1px solid var(--border); color: var(--text-muted); width: 36px; height: 36px; border-radius: 50%; display: flex; align-items: center; justify-content: center; cursor: pointer; position: relative; transition: all 0.2s; }
+.notif-btn:hover { background: var(--primary-light); color: var(--primary); border-color: var(--primary-border); }
+.notif-badge { position: absolute; top: -2px; right: -2px; background: #ef4444; color: #fff; font-size: 0.65rem; font-weight: 700; width: 16px; height: 16px; border-radius: 50%; display: flex; align-items: center; justify-content: center; border: 2px solid var(--surface); }
+.notif-dropdown { position: absolute; right: 50px; top: 50px; width: 340px; background: var(--surface); border: 1px solid var(--border); border-radius: 14px; box-shadow: var(--shadow-lg); display: none; z-index: 100; overflow: hidden; }
+.notif-dropdown.active { display: block; }
+.notif-dropdown-header { padding: 14px 16px; border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; background: #f8fafc; }
+.notif-dropdown-header h4 { font-size: 0.88rem; font-weight: 700; }
+.notif-item { padding: 12px 16px; border-bottom: 1px solid var(--border); cursor: pointer; transition: background 0.15s; }
+.notif-item:hover { background: #f8fafc; }
+.notif-item.unread { background: var(--primary-light); }
+.notif-item:last-child { border-bottom: none; }
+.notif-title { font-size: 0.82rem; font-weight: 700; color: var(--text-main); margin-bottom: 2px; }
+.notif-desc { font-size: 0.76rem; color: var(--text-muted); }
+.logout-btn { background: transparent; border: 1px solid var(--border); color: var(--text-muted); padding: 6px 14px; border-radius: 8px; font-size: 0.8rem; font-weight: 600; cursor: pointer; transition: all 0.2s; }
+.logout-btn:hover { color: var(--text-main); border-color: var(--text-muted); }

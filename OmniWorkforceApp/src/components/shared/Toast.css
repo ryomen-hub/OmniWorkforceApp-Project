@@ -1,0 +1,2 @@
+.toast-container { position: fixed; bottom: 24px; right: 24px; z-index: 120; display: flex; flex-direction: column; gap: 8px; }
+.toast-bubble { background: #0f172a; border: 1px solid var(--primary); color: #ffffff; padding: 11px 16px; border-radius: 10px; box-shadow: var(--shadow-lg); font-size: 0.85rem; display: flex; align-items: center; gap: 8px; }
