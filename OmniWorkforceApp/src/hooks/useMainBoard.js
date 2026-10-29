@@ -1,7 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { ROLES } from "../constants/roles";
-
-const API_BASE = "http://localhost:4000/api";
+import { API_BASE } from "../config/api";
 
 const ROLE_META = {
   [ROLES.ADMIN]: { initials: "AO", author: "Admin Manager" },

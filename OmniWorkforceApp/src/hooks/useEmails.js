@@ -1,8 +1,7 @@
 import { useCallback, useEffect, useState } from "react";
+import { API_BASE } from "../config/api";
 import { roleToEmailHandle } from "../utils/formatters";
 import { mapEmail } from "../utils/mapEmail";
-
-const API_BASE = "http://localhost:4000/api";
 
 export default function useEmails(token, authHeader, socket, role, showToast) {
   const [emailFolder, setEmailFolder] = useState("inbox");

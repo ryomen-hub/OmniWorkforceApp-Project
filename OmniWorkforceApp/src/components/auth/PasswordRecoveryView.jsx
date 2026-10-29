@@ -1,7 +1,6 @@
 import { useState } from "react";
 import Icon from "../shared/Icon";
-
-const API_BASE = "http://localhost:4000/api";
+import { API_BASE } from "../../config/api";
 
 export default function PasswordRecoveryView({ token = "", onBack }) {
   const [email, setEmail] = useState("");

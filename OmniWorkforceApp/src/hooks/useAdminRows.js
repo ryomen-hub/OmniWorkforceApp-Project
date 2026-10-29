@@ -1,6 +1,5 @@
 import { useCallback, useEffect, useState } from "react";
-
-const API_BASE = "http://localhost:4000/api";
+import { API_BASE } from "../config/api";
 
 export async function adminApiRequest(path, authHeader, options = {}) {
   const response = await fetch(`${API_BASE}${path}`, {
