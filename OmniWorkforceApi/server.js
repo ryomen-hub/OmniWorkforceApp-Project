@@ -18,6 +18,8 @@ import { initSocket } from "./sockets/index.js";
 
 const app = express();
 
+app.set("trust proxy", 1);
+
 // Sets a batch of protective HTTP response headers (blocks MIME-sniffing,
 // disables framing to prevent clickjacking, etc.) — one line, no config
 // needed for an API like this one
