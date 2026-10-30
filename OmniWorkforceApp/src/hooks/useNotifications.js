@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-import { API_BASE } from "../config/api";
+
+const API_BASE = "http://localhost:4000/api";
 
 // Backend fields (title, description, is_read) renamed to what
 // TopNavbar.jsx actually renders (title, desc, unread) — same reasoning

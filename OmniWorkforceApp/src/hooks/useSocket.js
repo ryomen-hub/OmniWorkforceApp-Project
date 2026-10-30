@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { io } from "socket.io-client";
-import { SOCKET_URL } from "../config/api";
+
+const SOCKET_URL = "http://localhost:4000";
 
 // Connects once a real JWT exists (after login), disconnects on logout —
 // same token used for every REST call also authenticates the socket, via

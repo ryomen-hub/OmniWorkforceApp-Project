@@ -1,5 +1,6 @@
 import { useMemo, useState } from "react";
-import { API_BASE } from "../config/api";
+
+const API_BASE = "http://localhost:4000/api";
 
 // Login is email + password now — no role dropdown. The role comes back
 // from whatever's on the account record the server finds by that email;
